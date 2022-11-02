@@ -1,3 +1,10 @@
+6 WAYS TO CONNECT YOUR DAPP This is way 4 of 6 : NextJS + Moralis
+
+This projet includes a simple solidity smart contract : hardhat-simple-storage Author: Patrick Collins Repo: https://github.com/PatrickAlphaC/hardhat-simple-storage
+
+@notice: Better to try this on a local blockchain! @dev: fallback function added to delete the error message when passing the execute function
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
