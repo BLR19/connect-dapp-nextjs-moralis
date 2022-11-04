@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import { MoralisProvider } from "react-moralis";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  //no server on this project
+  return (
+    <MoralisProvider initializeOnMount={false}>
+      <Component {...pageProps} />
+    </MoralisProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
